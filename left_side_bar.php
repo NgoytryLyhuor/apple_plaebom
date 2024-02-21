@@ -9,7 +9,7 @@
             $row = mysqli_fetch_assoc($result);
             echo '   
                 <div class="">
-                    <img data-bs-toggle="modal" data-bs-target="#show_image" src="assets/images/users/' . $row['profile'] . '" alt="" class="avatar-md rounded-circle">
+                    <img style="object-fit:cover" data-bs-toggle="modal" data-bs-target="#show_image" src="assets/images/users/' . $row['profile'] . '" alt="" class="avatar-md rounded-circle">
                 </div>
                 <div class="mt-3">
                     <h4 class="font-size-16 mb-1 text-uppercase">' . $row['username'] . '</h4>

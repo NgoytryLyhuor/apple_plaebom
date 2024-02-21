@@ -108,7 +108,7 @@ include("left_side_bar.php");
                                     <div class="row mb-3">
                                         <label for="image" class="col-sm-2 col-form-label"></label>
                                         <div class="col-sm-10">
-                                            <button type="submit" name="btn_people_update" class="btn btn-info waves-effect waves-light">Insert News Data</button>
+                                            <button type="submit" name="btn_people_update" class="btn btn-info waves-effect waves-light">Update] Data</button>
                                         </div>
                                     </div>
                                 ';

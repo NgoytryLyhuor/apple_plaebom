@@ -90,7 +90,7 @@ $id = $_SESSION['id'];
                                 $result = $con->query($sql_select);
                                 $row = mysqli_fetch_assoc($result);
                                 echo '    
-                                        <img class="rounded-circle header-profile-user" src="assets/images/users/' . $row['profile'] . '" alt="Header Avatar">
+                                        <img style="object-fit:cover" class="rounded-circle header-profile-user" src="assets/images/users/' . $row['profile'] . '" alt="Header Avatar">
                                         <span class="d-none d-xl-inline-block ms-1">' . $row['username'] . '</span>
                                     ';
                                 ?>
@@ -126,7 +126,7 @@ $id = $_SESSION['id'];
                         $result = $con->query($sql_select);
                         $row = mysqli_fetch_assoc($result);
                         echo '   
-                            <img width="100%" class="rounded " src="./assets/images/users/'.$row['profile'].'" alt="">
+                            <img style="object-fit:cover" width="100%" class="rounded " src="./assets/images/users/'.$row['profile'].'" alt="">
                         '; ?>
                     </div>
 
